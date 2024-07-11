@@ -1,0 +1,89 @@
+body {
+    overflow-x: hidden;
+}
+
+header {
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+
+.img-central {
+    background-image: url(../images/central_centro.png);
+    height: 480px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.profesional-01 {
+    background-image: url(../images/doc01.jpg);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 200px;
+}
+
+.profesional-02 {
+    background-image: url(../images/doc02.jpg);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 200px;
+}
+
+.profesional-03 {
+    background-image: url(../images/doc03.jpg);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 200px;
+}
+
+.profesional-04 {
+    background-image: url(../images/doc04.jpg);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 200px;
+}
+
+.fondo {
+    color: #f3f3f3;
+    background: rgb(32, 32, 32);
+    padding: 50px 0px;
+}
+
+.icon {
+    color: #31a5d5;
+    font-size: 25px;
+    margin-right: 8px;
+}
+
+.palabra {
+    border-radius: 50px;
+    margin: 0px 10px 0px 0px;
+}
+
+
+.palabra:hover {
+    background-color: #31a5d5;
+    color: #f3f3f3;
+    transition: .500s;
+    border-radius: 50px;
+} 
+
+.lista {
+    list-style-type: none;
+    margin: 0px 40px ;
+    padding: 0;
+}
+
+li {
+    margin: 8px 0px ;
+}
+
